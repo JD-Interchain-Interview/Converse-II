@@ -16,8 +16,8 @@ const TimeClass_Web = '';
 const DescriptionClass_Mobile = 'space-y-3';
 const DescriptionClass_Web = '';
 
-const header = 'text-5xl py-10 pt-24';
-const subheader = 'text-4xl py-10';
+const header = 'text-4xl py-10 pt-24';
+const subheader = 'text-3xl py-10';
 const body = 'text-gray-50 text-md font-light w-full tracking-wide leading-relaxed';
 
 const gradient = 'bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-pink-500';
@@ -29,7 +29,7 @@ const hrOpacity = 'opacity-25';
 const SchedulePage = () => {
   return (
     <div>
-      <h1 className={header}>Schedule</h1>
+      <h1 className={`${header} ${gradient}`}>Schedule</h1>
 
       <br/>
       <hr className={hrOpacity}/>

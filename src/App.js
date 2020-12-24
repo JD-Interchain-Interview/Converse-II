@@ -18,7 +18,7 @@ import Expo from './components/Expo';
 // Component Styling
 
 const AppClass = 'bg-black text-gray-50 w-screen'; 
-const container = 'xl:container xl:mx-auto';
+const container = 'xl:container xl:mx-auto p-5';
 const hrOpacity = 'opacity-25'; 
 
 function App() {
