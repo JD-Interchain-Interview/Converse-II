@@ -23,6 +23,8 @@ const UserClass_Web = '';
 const LogoIcon = 'w-1/12';
 const LogoMark = 'w-3/12';
 
+const body = 'text-gray-400 text-sm font-light w-full tracking-wide leading-relaxed';
+const bodyHover = 'hover:text-pink-400';
 
 // Component Layout
 
@@ -31,24 +33,24 @@ const Navbar = () => {
     <div className={`${Navbarlass_Mobile} ${Navbarlass_Web}`}>
 
       <div className={`${Container_Mobile} ${leftContainer_Web}`}>
-        <div className={`${LogoClass_Mobile} ${LogoClass_Web}`}>
+        <a className={`${LogoClass_Mobile} ${LogoClass_Web}`} href='/'>
           <img src={Conference.logo} alt='Logo'className={LogoIcon}/>
           <p className={LogoMark}>{Conference.name} {Conference.year}</p>
-        </div>
+        </a>
       </div>
 
       <div className={`${Container_Mobile} ${centerContainer_Web}`}>
         <div className={`${MenuClass_Mobile} ${MenuClass_Web}`}>
-          <p>watch on-demand</p>
+          <a className={`${body} ${bodyHover}`} href='/Watch-On-Demand'>watch on-demand</a>
         </div>
         <div className={`${MenuClass_Mobile} ${MenuClass_Web}`}>
-          <p>schedule</p>
+          <a className={`${body} ${bodyHover}`} href='/Schedule'>schedule</a>
         </div>
         <div className={`${MenuClass_Mobile} ${MenuClass_Web}`}>
-          <p>speakers</p>
+          <a className={`${body} ${bodyHover}`} href='/Speakers'>speakers</a>
         </div>
         <div className={`${MenuClass_Mobile} ${MenuClass_Web}`}>
-          <p>expo</p>
+          <a className={`${body} ${bodyHover}`} href='/Expo'>expo</a>
         </div>
       </div>
       

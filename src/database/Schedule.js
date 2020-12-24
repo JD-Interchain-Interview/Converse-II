@@ -1,7 +1,7 @@
-export const Schedule = [
+export const ScheduleDec12 = [
   // kickoff
   // Dec 12 -- 26
-  // Dec 13 -- 20
+
   {
     date: 'Dec 12 2020',
     time: '08:55 AM',
@@ -114,8 +114,8 @@ export const Schedule = [
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/10',
     title: 'Break',
     speakers: {
-      name: 'https://www.crowdcast.io/e/interchain-conversations-II/1',
-      title: 'https://www.crowdcast.io/e/interchain-conversations-II/1',
+      name: '',
+      title: '',
     }
   },
   {
@@ -312,10 +312,14 @@ export const Schedule = [
     }
   },
 
-  // -----------------------------------------------------
+]
+
+export const ScheduleDec13 = [
+
+  // Dec 13 -- 20
 
   {
-    date: 'Dec 12 2020',
+    date: 'Dec 13 2020',
     time: '09:00 AM',
     timeZone: 'PT',
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/28',
@@ -326,7 +330,7 @@ export const Schedule = [
     }
   },
   {
-    date: 'Dec 12 2020',
+    date: 'Dec 13 2020',
     time: '09:30 AM',
     timeZone: 'PT',
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/29',
@@ -343,7 +347,7 @@ export const Schedule = [
     ]
   },
   {
-    date: 'Dec 12 2020',
+    date: 'Dec 13 2020',
     time: '10:00 AM',
     timeZone: 'PT',
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/30',
@@ -354,7 +358,7 @@ export const Schedule = [
     }
   },
   {
-    date: 'Dec 12 2020',
+    date: 'Dec 13 2020',
     time: '10:30 AM',
     timeZone: 'PT',
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/31',
@@ -365,7 +369,7 @@ export const Schedule = [
     }
   },
   {
-    date: 'Dec 12 2020',
+    date: 'Dec 13 2020',
     time: '11:00 AM',
     timeZone: 'PT',
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/32',
@@ -376,7 +380,7 @@ export const Schedule = [
     }
   },
   {
-    date: 'Dec 12 2020',
+    date: 'Dec 13 2020',
     time: '11:30 AM',
     timeZone: 'PT',
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/33',
@@ -387,8 +391,8 @@ export const Schedule = [
     }
   },
   {
-    date: 'Dec 12 2020',
-    time: '12:00 PM',
+    date: 'Dec 13 2020',
+    time: '13:00 PM',
     timeZone: 'PT',
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/34',
     title: 'Fireside Chat on Security, DeFi Composability, & Interoperability',
@@ -408,8 +412,8 @@ export const Schedule = [
     ]
   },
   {
-    date: 'Dec 12 2020',
-    time: '12:30 PM',
+    date: 'Dec 13 2020',
+    time: '13:30 PM',
     timeZone: 'PT',
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/35',
     title: 'Risk-Adjusted Bonding Curves - System Design and Simulations',
@@ -419,7 +423,7 @@ export const Schedule = [
     }
   },
   {
-    date: 'Dec 12 2020',
+    date: 'Dec 13 2020',
     time: '01:00 PM',
     timeZone: 'PT',
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/36',
@@ -430,7 +434,7 @@ export const Schedule = [
     }
   },
   {
-    date: 'Dec 12 2020',
+    date: 'Dec 13 2020',
     time: '01:30 PM',
     timeZone: 'PT',
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/37',
@@ -441,7 +445,7 @@ export const Schedule = [
     }
   },
   {
-    date: 'Dec 12 2020',
+    date: 'Dec 13 2020',
     time: '02:00 PM',
     timeZone: 'PT',
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/38',
@@ -452,7 +456,7 @@ export const Schedule = [
     }
   },
   {
-    date: 'Dec 12 2020',
+    date: 'Dec 13 2020',
     time: '02:30 PM',
     timeZone: 'PT',
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/39',
@@ -463,7 +467,7 @@ export const Schedule = [
     }
   },
   {
-    date: 'Dec 12 2020',
+    date: 'Dec 13 2020',
     time: '03:00 PM',
     timeZone: 'PT',
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/40',
@@ -474,7 +478,7 @@ export const Schedule = [
     }
   },
   {
-    date: 'Dec 12 2020',
+    date: 'Dec 13 2020',
     time: '03:30 PM',
     timeZone: 'PT',
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/41',
@@ -485,7 +489,7 @@ export const Schedule = [
     }
   },
   {
-    date: 'Dec 12 2020',
+    date: 'Dec 13 2020',
     time: '04:00 PM',
     timeZone: 'PT',
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/42',
@@ -496,7 +500,7 @@ export const Schedule = [
     }
   },
   {
-    date: 'Dec 12 2020',
+    date: 'Dec 13 2020',
     time: '04:30 PM',
     timeZone: 'PT',
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/43',
@@ -507,7 +511,7 @@ export const Schedule = [
     }
   },
   {
-    date: 'Dec 12 2020',
+    date: 'Dec 13 2020',
     time: '05:00 PM',
     timeZone: 'PT',
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/44',
@@ -518,7 +522,7 @@ export const Schedule = [
     }
   },
   {
-    date: 'Dec 12 2020',
+    date: 'Dec 13 2020',
     time: '05:30 PM',
     timeZone: 'PT',
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/45',
@@ -529,7 +533,7 @@ export const Schedule = [
     }
   },
   {
-    date: 'Dec 12 2020',
+    date: 'Dec 13 2020',
     time: '06:00 PM',
     timeZone: 'PT',
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/46',
@@ -540,7 +544,7 @@ export const Schedule = [
     }
   },
   {
-    date: 'Dec 12 2020',
+    date: 'Dec 13 2020',
     time: '06:30 PM',
     timeZone: 'PT',
     link: 'https://www.crowdcast.io/e/interchain-conversations-II/47',
