@@ -18,7 +18,8 @@ import Expo from './components/Expo';
 // Component Styling
 
 const AppClass = 'bg-black text-gray-50 w-screen'; 
-const container = 'lg:container lg:mx-auto';
+const container = 'xl:container xl:mx-auto';
+const hrOpacity = 'opacity-25'; 
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <div className={AppClass}>
         <div className={container}>
           <Navbar/>
+          <hr className={hrOpacity}/>
           <Switch>
             <Route exact path='/'>
               <Home/>

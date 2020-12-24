@@ -3,7 +3,7 @@ import { Conference } from '../../database/Conference'
 
 // Component Styling
 
-const LandingPageClass_Mobile = 'w-full flex flex-col flex-wrap justify-between';
+const LandingPageClass_Mobile = 'w-full mt-24 flex flex-col flex-wrap justify-between';
 const LandingPageClass_Web = 'lg:flex-row lg:justify-between ...';
 
 const Container_Mobile = 'w-full';
@@ -13,7 +13,7 @@ const rightContainer_Web = 'z-50 lg:w-6/12 ...';
 const DescriptionClass_Mobile = '';
 const DescriptionClass_Web = '';
 
-const KikoffClass_Mobile = 'z-50 ...';
+const KikoffClass_Mobile = '';
 const KikoffClass_Web = '';
 
 
@@ -24,7 +24,7 @@ const Home = () => {
     <div className={`${LandingPageClass_Mobile} ${LandingPageClass_Web}`}>
       <div className={`${Container_Mobile} ${leftContainer_Web}`}>
         <div className={`${DescriptionClass_Mobile} ${DescriptionClass_Web}`}>
-          <header>{Conference.title} {Conference.season}</header>
+          <header>{Conference.title} {Conference.year}</header>
           <p>{Conference.description}</p>
         </div>
       </div>
