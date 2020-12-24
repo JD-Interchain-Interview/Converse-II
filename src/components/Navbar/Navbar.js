@@ -8,8 +8,8 @@ const Navbarlass_Web = 'lg:flex-row lg:justify-between...';
 
 const Container_Mobile = 'w-full';
 const leftContainer_Web = 'flex justify-start lg:w-3/12 ...';
-const centerContainer_Web = 'flex justify-center lg:w-6/12 lg:space-y-1 ...';
-const rightContainer_Web = 'flex justify-end lg:w-3/12 ...';
+const centerContainer_Web = 'invisible lg:visible flex justify-center lg:w-6/12 lg:space-y-1 ...';
+const rightContainer_Web = 'invisible lg:visible flex justify-end lg:w-3/12 ...';
 
 const LogoClass_Mobile = 'flex flex-row space-x-1 items-center';
 const LogoClass_Web = '';

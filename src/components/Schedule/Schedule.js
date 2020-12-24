@@ -13,7 +13,7 @@ const rightContainer_Web = ' z-50 lg:w-6/12 ...';
 const TimeClass_Mobile = '';
 const TimeClass_Web = '';
 
-const DescriptionClass_Mobile = '';
+const DescriptionClass_Mobile = 'space-y-3';
 const DescriptionClass_Web = '';
 
 const header = 'text-5xl py-10 pt-24';
@@ -21,7 +21,7 @@ const subheader = 'text-4xl py-10';
 const body = 'text-gray-50 text-md font-light w-full tracking-wide leading-relaxed';
 
 const gradient = 'bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-pink-500';
-const hover = 'hover:text-green-300';
+const hover = 'hover:text-gray-500';
 const hrOpacity = 'opacity-25'; 
 
 // Component Layout
@@ -47,7 +47,7 @@ const SchedulePage = () => {
         
         <div className={`${Container_Mobile} ${rightContainer_Web}`}>
           <div className={`${DescriptionClass_Mobile} ${DescriptionClass_Web}`}>
-            <h1 className={`${subheader} ${gradient} ${hover}`}>{events.title}</h1>
+            <a className={`${subheader} ${gradient} ${hover}`} href={events.link} target='_blank'>{events.title}</a>
             <p>{events.speakers.name}, {events.speakers.title}</p>
           </div>
         </div>

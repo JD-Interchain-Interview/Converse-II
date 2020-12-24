@@ -4,8 +4,8 @@ import ConferenceKikoffVideo from '../../assets/ConferenceKikoffVideo.png'
 
 // Component Styling
 
-const LandingPageClass_Mobile = 'w-full py-24 flex flex-col flex-wrap justify-between';
-const LandingPageClass_Web = 'lg:flex-row lg:justify-between ...';
+const LandingPageClass_Mobile = 'w-full py-24 flex flex-col flex-wrap justify-between space-y-24';
+const LandingPageClass_Web = 'lg:space-y-0 lg:flex-row lg:justify-between ...';
 
 const Container_Mobile = 'w-full';
 const leftContainer_Web = 'lg:w-5/12 ...';
