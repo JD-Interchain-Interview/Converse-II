@@ -1,4 +1,4 @@
-const Schedule = [
+export const Schedule = [
   // kickoff
   // Dec 12 -- 26
   // Dec 13 -- 20

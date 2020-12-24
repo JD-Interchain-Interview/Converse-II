@@ -1,4 +1,4 @@
-const coOrganizer = [
+export const coOrganizer = [
   {
     name: 'Dystopia Labs',
     logo: 'https://c.gitcoin.co/grants/ef48be2de9903230b8fc65d96b7d7652/dl_final_v1.0-01.jpg',
@@ -7,7 +7,7 @@ const coOrganizer = [
   },
 ]
 
-const Sponsors = [
+export const Sponsors = [
   {
     name: 'Krypto Seoul',
     logo: 'https://media-exp1.licdn.com/dms/image/C510BAQFSFHVYpT4zkA/company-logo_200_200/0/1525685600987?e=1616630400&v=beta&t=S7edq0x5TT_puT1AOHkN9mysmNC-3llw2xvlq236vpE',
@@ -45,7 +45,7 @@ const Sponsors = [
   },
 ]
 
-const Companies = [
+export const Companies = [
   // {
   //   name: '',
   //   logo: '',

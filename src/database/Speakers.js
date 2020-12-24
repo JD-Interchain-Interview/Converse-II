@@ -1,4 +1,4 @@
-const Speakers = [
+export const Speakers = [
   // 52
   // {
   //   profile: '',
