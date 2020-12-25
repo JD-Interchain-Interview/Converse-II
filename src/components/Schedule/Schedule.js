@@ -21,6 +21,7 @@ const subheader = 'text-3xl py-10';
 const body = 'text-gray-50 text-md font-light w-full tracking-wide leading-relaxed';
 
 const gradient = 'bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-pink-500';
+
 const hover = 'hover:text-gray-500';
 const hrOpacity = 'opacity-25'; 
 

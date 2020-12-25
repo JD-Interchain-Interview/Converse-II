@@ -17,6 +17,7 @@ const DescriptionClass_Web = '';
 const KikoffClass_Mobile = '';
 const KikoffClass_Web = '';
 const Video = '';
+const VideoHover = 'transform duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:shadow-lg hover:bg-[] hover:opacity-80'; 
 
 const header = 'text-4xl py-10';
 const body = 'text-gray-50 text-md font-light w-full tracking-wide leading-relaxed';
@@ -37,9 +38,9 @@ const Home = () => {
       </div>
       
       <div className={`${Container_Mobile} ${rightContainer_Web}`}>
-        <div className={`${KikoffClass_Mobile} ${KikoffClass_Web}`}>
-          <img src={ConferenceKikoffVideo} alr='Conference Kikoff Video' className={Video}/>
-        </div>
+        <a className={`${KikoffClass_Mobile} ${KikoffClass_Web}`} href='https://www.crowdcast.io/e/interchain-conversations-II/1' target='_blank'>
+          <img src={ConferenceKikoffVideo} alr='Conference Kikoff Video' className={`${Video} ${VideoHover}`}/>
+        </a>
       </div>
     </div>
   )
