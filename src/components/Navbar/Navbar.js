@@ -1,5 +1,6 @@
 import React from 'react'; 
 import { Conference } from '../../database/Conference'
+import Icon_User from '../../assets/Icon_User.svg'
 
 // Component Styling
 
@@ -17,9 +18,9 @@ const LogoClass_Web = '';
 const MenuClass_Mobile = 'w-3/12 text-center ...';
 const MenuClass_Web = '';
 
-const UserClass_Mobile = 'rounded-full border-2 border-blue-300';
+const UserClass_Mobile = 'rounded-full border-2[] border-blue-300[]';
 const UserClass_Web = '';
-const UserIcon = 'w-9 h-9 rounded-full';
+const UserIcon = 'w-9 h-9 rounded-full p-1';
 
 const LogoIcon = 'w-1/12';
 const LogoMark = 'w-4/12';
@@ -60,7 +61,7 @@ const Navbar = () => {
       
       <div className={`${Container_Mobile} ${rightContainer_Web}`}>
         <div className={`${UserClass_Mobile} ${UserClass_Web}`}>
-          <img src='https://assets.stickpng.com/images/585e4bf3cb11b227491c339a.png' alt='user' className={UserIcon}/>
+          <img src={Icon_User} alt='user' className={UserIcon}/>
         </div>
       </div>
 
