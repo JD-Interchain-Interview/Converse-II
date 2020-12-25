@@ -3,7 +3,7 @@ import { Conference } from '../../database/Conference'
 
 // Component Styling
 
-const Navbarlass_Mobile = 'w-full flex flex-col flex-wrap justify-between py-4 space-y-8';
+const Navbarlass_Mobile = 'bg-black w-full flex flex-col flex-wrap justify-between py-4 space-y-8';
 const Navbarlass_Web = 'lg:space-y-0 lg:flex-row lg:justify-between...';
 
 const Container_Mobile = 'w-full items-center';

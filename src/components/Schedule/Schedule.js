@@ -3,8 +3,8 @@ import { ScheduleDec12, ScheduleDec13 } from '../../database/Schedule'
 
 // Component Styling
 
-const LandingPageClass_Mobile = 'w-full py-24 flex flex-col flex-wrap justify-between';
-const LandingPageClass_Web = 'lg:flex-row lg:justify-center items-center ...';
+const ScheduleClass_Mobile = 'w-full my-24 flex flex-col flex-wrap justify-between';
+const ScheduleClass_Web = 'lg:flex-row lg:justify-center items-center ...';
 
 const Container_Mobile = 'w-full';
 const leftContainer_Web = 'lg:w-4/12 ...';
@@ -39,7 +39,7 @@ const SchedulePage = () => {
       <h1 className={header}>Dec 12 2020</h1>
       <br/>
       {ScheduleDec12.map((events) => (
-        <div className={`${LandingPageClass_Mobile} ${LandingPageClass_Web}`}>
+        <div className={`${ScheduleClass_Mobile} ${ScheduleClass_Web}`}>
         <div className={`${Container_Mobile} ${leftContainer_Web}`}>
           <div className={`${TimeClass_Mobile} ${TimeClass_Web}`}>
             <p className={body}>{events.date} — {events.time} {events.timeZone}</p>
@@ -48,7 +48,9 @@ const SchedulePage = () => {
         
         <div className={`${Container_Mobile} ${rightContainer_Web}`}>
           <div className={`${DescriptionClass_Mobile} ${DescriptionClass_Web}`}>
-            <a className={`${subheader} ${gradient} ${hover}`} href={events.link} target='_blank'>{events.title}</a>
+            <div className={`${subheader} ${gradient} ${hover}`}>
+              <a  href={events.link} target='_blank'>{events.title}</a>
+            </div>
             <p>{events.speakers.name}, {events.speakers.title}</p>
           </div>
         </div>
@@ -63,7 +65,7 @@ const SchedulePage = () => {
       <br/>
 
       {ScheduleDec13.map((events) => (
-        <div className={`${LandingPageClass_Mobile} ${LandingPageClass_Web}`}>
+        <div className={`${ScheduleClass_Mobile} ${ScheduleClass_Web}`}>
         <div className={`${Container_Mobile} ${leftContainer_Web}`}>
           <div className={`${TimeClass_Mobile} ${TimeClass_Web}`}>
             <p className={body}>{events.date} — {events.time} {events.timeZone}</p>
@@ -72,7 +74,9 @@ const SchedulePage = () => {
         
         <div className={`${Container_Mobile} ${rightContainer_Web}`}>
           <div className={`${DescriptionClass_Mobile} ${DescriptionClass_Web}`}>
-            <h1 className={`${subheader} ${gradient} ${hover}`}>{events.title}</h1>
+            <div className={`${subheader} ${gradient} ${hover}`}>
+              <a  href={events.link} target='_blank'>{events.title}</a>
+            </div>
             <p>{events.speakers.name}, {events.speakers.title}</p>
           </div>
         </div>

@@ -3,8 +3,8 @@ import { Speakers } from '../../database/Speakers';
 
 // Component Styling
 
-const SpeakersClass_Mobile = 'grid grid-cols-2 gap-7 p-10 ';
-const SpeakersClass_Web = 'sm:grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 sm:gap-7 sm:space-y-0';
+const SpeakersClass_Mobile = 'grid grid-cols-2 gap-7 p-3 ';
+const SpeakersClass_Web = 'sm:p-10 sm:grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 sm:gap-7 sm:space-y-0';
 
 const card_Mobile = 'border border-gray-700 hover:border-blue-400 bg-gray-900 flex flex-col';
 const card_Web = '';
@@ -15,7 +15,7 @@ const card_hover = 'transform duration-300 ease-in-out hover:-translate-y-1 hove
 const header = 'text-4xl py-10 pt-24';
 
 const ProfileImage = 'border border-gray-700 w-full object-contain rounded-[]';
-const ProfileDescription = 'p-5 space-y-2';
+const ProfileDescription = 'space-y-2';
 const ProfileTitle = 'text-gray-600';
 const ProfileCompany = 'text-gray-300 text-sm font-light';
 
