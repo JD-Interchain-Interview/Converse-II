@@ -1,7 +1,8 @@
-import Logo from '../assets/Logo.svg';
+import Logo_Interchain from '../assets/Logo_Interchain.svg';
+import Logo_Converse from '../assets/Logo_Converse.svg'
 
 export const Conference = {
-    logo: Logo,
+    logo: Logo_Converse,
     name: 'converse',
     title: 'Interchain Conversations',
     year: 'II',

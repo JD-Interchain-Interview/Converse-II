@@ -15,7 +15,7 @@ const card_hover = 'transform duration-300 ease-in-out hover:-translate-y-1 hove
 const header = 'text-4xl py-10 pt-24';
 
 const ProfileImage = 'border border-gray-700 w-full object-contain rounded-[]';
-const ProfileDescription = 'space-y-2';
+const ProfileDescription = 'p-5 space-y-2';
 const ProfileTitle = 'text-gray-600';
 const ProfileCompany = 'text-gray-300 text-sm font-light';
 
