@@ -1,6 +1,7 @@
 import React from 'react'; 
 import { Conference } from '../../database/Conference'
 import ConferenceKikoffVideo from '../../assets/ConferenceKikoffVideo.png'
+import Sponsors from '../Expo/Sponsors'; 
 
 // Component Styling
 
@@ -23,24 +24,37 @@ const header = 'text-4xl py-10';
 const body = 'text-gray-50 text-md font-light w-full tracking-wide leading-relaxed';
 
 const gradient = 'bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-pink-500';
+const hrOpacity = 'opacity-25'; 
 
 
 // Component Layout
 
 const Home = () => {
   return (
-    <div className={`${LandingPageClass_Mobile} ${LandingPageClass_Web}`}>
-      <div className={`${Container_Mobile} ${leftContainer_Web}`}>
-        <div className={`${DescriptionClass_Mobile} ${DescriptionClass_Web}`}>
-          <h1 className={`${header} ${gradient}`}>{Conference.title} {Conference.year}</h1>
-          <p className={body}>{Conference.description}</p>
+    <div>
+      <div className={`${LandingPageClass_Mobile} ${LandingPageClass_Web}`}>
+        <div className={`${Container_Mobile} ${leftContainer_Web}`}>
+          <div className={`${DescriptionClass_Mobile} ${DescriptionClass_Web}`}>
+            <h1 className={`${header} ${gradient}`}>{Conference.title} {Conference.year}</h1>
+            <p className={body}>{Conference.description}</p>
+          </div>
+        </div>
+        
+        <div className={`${Container_Mobile} ${rightContainer_Web}`}>
+          <a className={`${KikoffClass_Mobile} ${KikoffClass_Web}`} href='https://www.crowdcast.io/e/interchain-conversations-II/1' target='_blank'>
+            <img src={ConferenceKikoffVideo} alr='Conference Kikoff Video' className={`${Video} ${VideoHover}`}/>
+          </a>
         </div>
       </div>
-      
-      <div className={`${Container_Mobile} ${rightContainer_Web}`}>
-        <a className={`${KikoffClass_Mobile} ${KikoffClass_Web}`} href='https://www.crowdcast.io/e/interchain-conversations-II/1' target='_blank'>
-          <img src={ConferenceKikoffVideo} alr='Conference Kikoff Video' className={`${Video} ${VideoHover}`}/>
-        </a>
+
+      <br/>
+      <p>virtual summit</p>
+      <br/>
+      <hr className={hrOpacity}/>
+      <br/>
+
+      <div>
+        <Sponsors/>
       </div>
     </div>
   )

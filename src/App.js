@@ -35,11 +35,6 @@ function App() {
               <br/>
               <Particle/>
               <Home/>
-              <br/>
-              <p>virtual summit</p>
-              <br/>
-              <hr className={hrOpacity}/>
-              <br/>
             </Route>
 
             <Route path='/Watch-On-Demand'><WatchOnDemand/></Route>
