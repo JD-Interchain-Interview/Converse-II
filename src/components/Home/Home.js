@@ -1,6 +1,9 @@
 import React from 'react'; 
 import { Conference } from '../../database/Conference'
 import ConferenceKikoffVideo from '../../assets/ConferenceKikoffVideo.png'
+
+import HorizontalScroll_ScheduleDec12Page from './HorizontalScroll_ScheduleDec12Page'; 
+import HorizontalScroll_ScheduleDec13Page from './HorizontalScroll_ScheduleDec13Page'; 
 import Sponsors from '../Expo/Sponsors'; 
 
 // Component Styling
@@ -49,6 +52,24 @@ const Home = () => {
 
       <br/>
       <p>virtual summit</p>
+      <br/>
+      <hr className={hrOpacity}/>
+      <br/>
+
+      <h1 className={`${header} ${gradient}`}>Playback</h1>
+
+
+      <p>Dec 12 2020</p>
+      <HorizontalScroll_ScheduleDec12Page/>
+
+      <br/>
+      <br/>
+      <br/>
+      
+      <p>Dec 13 2020</p>
+      <HorizontalScroll_ScheduleDec13Page/>
+
+
       <br/>
       <hr className={hrOpacity}/>
       <br/>
