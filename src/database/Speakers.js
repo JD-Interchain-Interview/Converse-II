@@ -1,7 +1,9 @@
+import Icon_Profile from '../assets/Icon_Profile.svg';
+
 export const Speakers = [
   // 52
   // {
-  //   profile: '',
+  //   profile: '' || Icon_Profile,
   //   name: '',
   //   title: '',
   //   social: '',
@@ -12,7 +14,7 @@ export const Speakers = [
   //   },
   // },
   {
-    profile: 'https://media-exp1.licdn.com/dms/image/C5603AQFbmFbR5-FmPg/profile-displayphoto-shrink_200_200/0/1517361673107?e=1614211200&v=beta&t=O8ciWwdNOyLP6ndh2edgsNV0JK2SxVq4tggpH0oc6gw',
+    profile: 'https://media-exp1.licdn.com/dms/image/C5603AQFbmFbR5-FmPg/profile-displayphoto-shrink_200_200/0/1517361673107?e=1614211200&v=beta&t=O8ciWwdNOyLP6ndh2edgsNV0JK2SxVq4tggpH0oc6gw' || Icon_Profile,
     name: 'Ethan Buchman',
     title: 'Co-Founder of Cosmos',
     social: 'https://twitter.com/buchmanster',
@@ -24,7 +26,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1266087004669870080/EaNef_Sf_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/1266087004669870080/EaNef_Sf_400x400.jpg' || Icon_Profile,
     name: 'Billy Rennekamp',
     title: 'Grants',
     social: 'https://twitter.com/billyrennekamp',
@@ -36,7 +38,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1244343904456990720/OIL654TL_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/1244343904456990720/OIL654TL_400x400.jpg' || Icon_Profile,
     name: 'Zaki Manian',
     title: 'Co-Founder',
     social: 'https://twitter.com/zmanian',
@@ -48,7 +50,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1317885244813406210/D7lJtIhJ_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/1317885244813406210/D7lJtIhJ_400x400.jpg' || Icon_Profile,
     name: 'Charlie Noyes',
     title: 'Partner',
     social: 'https://twitter.com/_charlienoyes',
@@ -60,7 +62,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1250697788020662274/n7hsPb8y_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/1250697788020662274/n7hsPb8y_400x400.jpg' || Icon_Profile,
     name: 'Sunny Aggarwal',
     title: 'Researcher',
     social: 'https://twitter.com/sunnya97',
@@ -72,7 +74,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1275881321458470918/_2Ow4BD2_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/1275881321458470918/_2Ow4BD2_400x400.jpg' || Icon_Profile,
     name: 'Tess Rinearson',
     title: 'VP of Engineering',
     social: 'https://twitter.com/_tessr',
@@ -84,7 +86,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/3287964801/1f27058e19821a3580b481ea1d9c4f44_400x400.jpeg',
+    profile: 'https://pbs.twimg.com/profile_images/3287964801/1f27058e19821a3580b481ea1d9c4f44_400x400.jpeg' || Icon_Profile,
     name: 'Dean Tribble',
     title: 'CEO',
     social: 'https://twitter.com/DeanTribble',
@@ -96,7 +98,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://media-exp1.licdn.com/dms/image/C4D03AQF7RNCPbZm8mQ/profile-displayphoto-shrink_200_200/0/1582625173127?e=1614211200&v=beta&t=JITW2FtUVEj4BFaS55P6noGUF7_BjB8fggFgMSyvVq4',
+    profile: 'https://media-exp1.licdn.com/dms/image/C4D03AQF7RNCPbZm8mQ/profile-displayphoto-shrink_200_200/0/1582625173127?e=1614211200&v=beta&t=JITW2FtUVEj4BFaS55P6noGUF7_BjB8fggFgMSyvVq4' || Icon_Profile,
     name: 'Zarko Milosevic',
     title: 'Chief Scientist',
     social: 'https://www.linkedin.com/in/zarko-milosevic-8a87375/',
@@ -108,7 +110,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://media-exp1.licdn.com/dms/image/C4E03AQF4ZGmdIRTw5w/profile-displayphoto-shrink_200_200/0/1578128089532?e=1614211200&v=beta&t=1Q5L-Cb8hVTcEqS1gaxkXvDngHtZD1nYbqpnBUE3T4s',
+    profile: 'https://media-exp1.licdn.com/dms/image/C4E03AQF4ZGmdIRTw5w/profile-displayphoto-shrink_200_200/0/1578128089532?e=1614211200&v=beta&t=1Q5L-Cb8hVTcEqS1gaxkXvDngHtZD1nYbqpnBUE3T4s' || Icon_Profile,
     name: 'Martin Worner',
     title: 'COO & VP of Product',
     social: 'https://www.linkedin.com/in/martinworner/',
@@ -120,7 +122,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://media-exp1.licdn.com/dms/image/C5603AQHKxgaBAIH8DA/profile-displayphoto-shrink_200_200/0/1557881594406?e=1614211200&v=beta&t=WCc5qhbtg5qkdvYP2HNH4FnyzLEGgK1LslkLt9dY2DM',
+    profile: 'https://media-exp1.licdn.com/dms/image/C5603AQHKxgaBAIH8DA/profile-displayphoto-shrink_200_200/0/1557881594406?e=1614211200&v=beta&t=WCc5qhbtg5qkdvYP2HNH4FnyzLEGgK1LslkLt9dY2DM' || Icon_Profile,
     name: 'Deborah Simpier',
     title: 'Co-Founder',
     social: 'https://twitter.com/DeborahSimpier',
@@ -132,7 +134,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://media-exp1.licdn.com/dms/image/C4D03AQEyFt9KJTuzTQ/profile-displayphoto-shrink_200_200/0/1597325878777?e=1614211200&v=beta&t=slhgREPXlr2nJkXcohjFUn0c2gNqQKnyHff7BiU1NYI',
+    profile: 'https://media-exp1.licdn.com/dms/image/C4D03AQEyFt9KJTuzTQ/profile-displayphoto-shrink_200_200/0/1597325878777?e=1614211200&v=beta&t=slhgREPXlr2nJkXcohjFUn0c2gNqQKnyHff7BiU1NYI' || Icon_Profile,
     name: 'Mustafa Al-Bassam',
     title: 'CEO & Co-Founder',
     social: 'https://twitter.com/musalbas',
@@ -144,7 +146,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/972155236914749440/5_0jsjMR_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/972155236914749440/5_0jsjMR_400x400.jpg' || Icon_Profile,
     name: 'Dave Hrycyszyn',
     title: 'CTO & Co-Founder',
     social: 'https://twitter.com/futurechimp',
@@ -156,7 +158,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/701933427189268480/EOzgOrLH_400x400.png',
+    profile: 'https://pbs.twimg.com/profile_images/701933427189268480/EOzgOrLH_400x400.png' || Icon_Profile,
     name: 'Rick Dudley',
     title: 'CEO & Founder',
     social: 'https://twitter.com/afdudley0?lang=en',
@@ -168,7 +170,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1333644545217736705/OXSWidCy_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/1333644545217736705/OXSWidCy_400x400.jpg' || Icon_Profile,
     name: 'Peng Zhong',
     title: 'CEO',
     social: 'https://twitter.com/zcpeng',
@@ -180,7 +182,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://media-exp1.licdn.com/dms/image/C4E03AQGSQzio-2-ncA/profile-displayphoto-shrink_200_200/0/1590955123411?e=1614211200&v=beta&t=SMUVmtyGJcNF4ExFyP-13W0KEWzjbBAekY7SA7un6UM',
+    profile: 'https://media-exp1.licdn.com/dms/image/C4E03AQGSQzio-2-ncA/profile-displayphoto-shrink_200_200/0/1590955123411?e=1614211200&v=beta&t=SMUVmtyGJcNF4ExFyP-13W0KEWzjbBAekY7SA7un6UM' || Icon_Profile,
     name: 'Stani Kulechov',
     title: 'CEO & Founder',
     social: 'https://www.linkedin.com/in/stani-kulechov-361284132/',
@@ -192,7 +194,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1118268647712206854/8RfmkgaV_400x400.png',
+    profile: 'https://pbs.twimg.com/profile_images/1118268647712206854/8RfmkgaV_400x400.png' || Icon_Profile,
     name: 'Gavin Birch',
     title: 'Protocol Analyst',
     social: 'https://twitter.com/ether_gavin?lang=en',
@@ -204,7 +206,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1137203560452567040/MNAZGe_o_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/1137203560452567040/MNAZGe_o_400x400.jpg' || Icon_Profile,
     name: 'JP Thorbjornsen',
     title: 'Contributor',
     social: 'https://twitter.com/jpthorbjornsen',
@@ -216,7 +218,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://media-exp1.licdn.com/dms/image/C4E03AQEAb0WwzvuYhg/profile-displayphoto-shrink_200_200/0/1552578313610?e=1614211200&v=beta&t=Fp9SG0ex_kc5yTIq8PfxTb2yt4UbhSXzDPte6zyrFMY',
+    profile: 'https://media-exp1.licdn.com/dms/image/C4E03AQEAb0WwzvuYhg/profile-displayphoto-shrink_200_200/0/1552578313610?e=1614211200&v=beta&t=Fp9SG0ex_kc5yTIq8PfxTb2yt4UbhSXzDPte6zyrFMY' || Icon_Profile,
     name: 'Igor Konnov',
     title: 'Principal Research Scientist',
     social: 'https://www.linkedin.com/in/igor-konnov-7683241/',
@@ -228,7 +230,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1234933554624118784/xj4W6bSH_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/1234933554624118784/xj4W6bSH_400x400.jpg' || Icon_Profile,
     name: 'Josh Lee',
     title: 'Ecosystem Analyst',
     social: 'https://twitter.com/dogemos',
@@ -240,7 +242,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1176096845224804353/jeB9HCEB_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/1176096845224804353/jeB9HCEB_400x400.jpg' || Icon_Profile,
     name: 'Jeffrey Hu',
     title: 'Research Director',
     social: 'https://twitter.com/hu_zhiwei',
@@ -252,7 +254,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://media-exp1.licdn.com/dms/image/C4E03AQEwIFMdPQR6kA/profile-displayphoto-shrink_200_200/0/1517538452107?e=1614211200&v=beta&t=6-ecJ7AI2qfpYe5Ik5aK1Ui7REw2ddZD2XJ93w4VguE',
+    profile: 'https://media-exp1.licdn.com/dms/image/C4E03AQEwIFMdPQR6kA/profile-displayphoto-shrink_200_200/0/1517538452107?e=1614211200&v=beta&t=6-ecJ7AI2qfpYe5Ik5aK1Ui7REw2ddZD2XJ93w4VguE' || Icon_Profile,
     name: 'Felix Lutsch',
     title: 'Business Development',
     social: 'https://twitter.com/FelixLts',
@@ -264,7 +266,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1146853980435308544/_zkdVy8u_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/1146853980435308544/_zkdVy8u_400x400.jpg' || Icon_Profile,
     name: 'Klaus Kursawe',
     title: 'Consensus Researche',
     social: 'https://twitter.com/KursaweKlaus',
@@ -276,7 +278,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://media-exp1.licdn.com/dms/image/C4D03AQE3Wt7I35DHZA/profile-displayphoto-shrink_200_200/0/1516895244957?e=1614211200&v=beta&t=R_x8ellXNFiAtIMDero1qwxkeaGKbxoDTF0yVwIzHYE',
+    profile: 'https://media-exp1.licdn.com/dms/image/C4D03AQE3Wt7I35DHZA/profile-displayphoto-shrink_200_200/0/1516895244957?e=1614211200&v=beta&t=R_x8ellXNFiAtIMDero1qwxkeaGKbxoDTF0yVwIzHYE' || Icon_Profile,
     name: 'Tomas Tauber',
     title: 'Lead Engineer & Researcher',
     social: 'https://www.linkedin.com/in/tomtau/',
@@ -288,7 +290,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://avatars1.githubusercontent.com/u/44879?s=460&v=4',
+    profile: 'https://avatars1.githubusercontent.com/u/44879?s=460&v=4' || Icon_Profile,
     name: 'Henry de Valence',
     title: 'Cryptographer',
     social: 'https://github.com/hdevalence',
@@ -300,7 +302,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/733735120381808640/uaz3ahZ5_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/733735120381808640/uaz3ahZ5_400x400.jpg' || Icon_Profile,
     name: 'Joe Andrieu',
     title: 'President',
     social: 'https://twitter.com/JoeAndrieu',
@@ -312,7 +314,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://media-exp1.licdn.com/dms/image/C5603AQEtQOpySXV92w/profile-displayphoto-shrink_200_200/0/1593078713585?e=1614211200&v=beta&t=1m4yFBYv79WHdmKoDG4Q1INKAoNi_58q4KeHWwK680o',
+    profile: 'https://media-exp1.licdn.com/dms/image/C5603AQEtQOpySXV92w/profile-displayphoto-shrink_200_200/0/1593078713585?e=1614211200&v=beta&t=1m4yFBYv79WHdmKoDG4Q1INKAoNi_58q4KeHWwK680o' || Icon_Profile,
     name: 'David Park',
     title: 'CMO',
     social: 'https://www.linkedin.com/in/davidparkcw/',
@@ -324,7 +326,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1285504574330212353/MERkZA3O_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/1285504574330212353/MERkZA3O_400x400.jpg' || Icon_Profile,
     name: 'Sean Braithwaite',
     title: 'CTO',
     social: 'https://twitter.com/brapse',
@@ -336,7 +338,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://media-exp1.licdn.com/dms/image/C4E03AQHseLP49pKKlg/profile-displayphoto-shrink_200_200/0/1516949133784?e=1614211200&v=beta&t=uHJjwsdtVL60fzJmPA5vR2l-bMW4w2G5somsb2Jybl4',
+    profile: 'https://media-exp1.licdn.com/dms/image/C4E03AQHseLP49pKKlg/profile-displayphoto-shrink_200_200/0/1516949133784?e=1614211200&v=beta&t=uHJjwsdtVL60fzJmPA5vR2l-bMW4w2G5somsb2Jybl4' || Icon_Profile,
     name: 'Arianne Flemming',
     title: 'COO',
     social: 'https://twitter.com/ArianneFlemming',
@@ -348,7 +350,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1018712538379313153/AVneo68C_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/1018712538379313153/AVneo68C_400x400.jpg' || Icon_Profile,
     name: 'Do Kwon',
     title: 'CEO & Founder',
     social: 'https://twitter.com/d0h0k1',
@@ -360,7 +362,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://media-exp1.licdn.com/dms/image/C4D03AQGxuNeWQ0ZiMA/profile-displayphoto-shrink_200_200/0/1560970017523?e=1614211200&v=beta&t=0MQK0kk_k9JjqywyTf03KjxLG5FQyqtTWn23zRPvFfY',
+    profile: 'https://media-exp1.licdn.com/dms/image/C4D03AQGxuNeWQ0ZiMA/profile-displayphoto-shrink_200_200/0/1560970017523?e=1614211200&v=beta&t=0MQK0kk_k9JjqywyTf03KjxLG5FQyqtTWn23zRPvFfY' || Icon_Profile,
     name: 'Julien Bouteloup',
     title: 'CEO & Founder',
     social: 'https://www.linkedin.com/in/jbouteloup/',
@@ -372,7 +374,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/media/D7llAQ_W4Acctd5?format=jpg&name=large',
+    profile: 'https://pbs.twimg.com/media/D7llAQ_W4Acctd5?format=jpg&name=large' || Icon_Profile,
     name: 'Brent Xu',
     title: 'Head of Strategy & Partnerships',
     social: '',
@@ -384,7 +386,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/968714871893385216/gxB-WOJW_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/968714871893385216/gxB-WOJW_400x400.jpg' || Icon_Profile,
     name: 'James Prestwich',
     title: 'Co-Founder',
     social: 'https://twitter.com/_prestwich',
@@ -396,7 +398,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1080391425206833153/tRDFapO2_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/1080391425206833153/tRDFapO2_400x400.jpg' || Icon_Profile,
     name: 'Judd Keppel',
     title: 'Co-Founder',
     social: 'https://twitter.com/juddkeppel',
@@ -408,7 +410,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1133393847587880962/xKUvo_L1_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/1133393847587880962/xKUvo_L1_400x400.jpg' || Icon_Profile,
     name: 'Dr. Shaun Conway',
     title: 'Founder',
     social: 'https://twitter.com/shaunbconway',
@@ -420,7 +422,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1154105527590432770/3PTPh8ci_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/1154105527590432770/3PTPh8ci_400x400.jpg' || Icon_Profile,
     name: 'Aaron Craelius',
     title: 'CTO',
     social: 'https://twitter.com/aaroncraelius',
@@ -432,7 +434,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://media-exp1.licdn.com/dms/image/C4E03AQFKF8MqJwxrGg/profile-displayphoto-shrink_200_200/0/1516857568650?e=1614211200&v=beta&t=0qQX68y_dUROy26eDxWlSPy4G4krmZFN-OVbr7md6qM',
+    profile: 'https://media-exp1.licdn.com/dms/image/C4E03AQFKF8MqJwxrGg/profile-displayphoto-shrink_200_200/0/1516857568650?e=1614211200&v=beta&t=0qQX68y_dUROy26eDxWlSPy4G4krmZFN-OVbr7md6qM' || Icon_Profile,
     name: 'Shruti Appiah',
     title: 'Research Scientist',
     social: 'https://www.linkedin.com/in/shrutiappiah/',
@@ -444,7 +446,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://media-exp1.licdn.com/dms/image/C4E03AQEge1Fn49tp1A/profile-displayphoto-shrink_200_200/0/1517882116943?e=1614211200&v=beta&t=LAVAftf-HSOIx42XvQeBVSmYMfeLqrSLBnEDOpO2br4',
+    profile: 'https://media-exp1.licdn.com/dms/image/C4E03AQEge1Fn49tp1A/profile-displayphoto-shrink_200_200/0/1517882116943?e=1614211200&v=beta&t=LAVAftf-HSOIx42XvQeBVSmYMfeLqrSLBnEDOpO2br4' || Icon_Profile,
     name: 'Dev Ojha',
     title: 'Co-Founder',
     social: 'https://www.linkedin.com/in/dev-ojha-0/',
@@ -456,7 +458,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://media-exp1.licdn.com/dms/image/C5103AQHT81D919Rw7A/profile-displayphoto-shrink_200_200/0/1575389166767?e=1614211200&v=beta&t=_LKxsz3MyCBzn8C1sg_CBdxWj-cxJ_eLl8b4IBskiY0',
+    profile: 'https://media-exp1.licdn.com/dms/image/C5103AQHT81D919Rw7A/profile-displayphoto-shrink_200_200/0/1575389166767?e=1614211200&v=beta&t=_LKxsz3MyCBzn8C1sg_CBdxWj-cxJ_eLl8b4IBskiY0' || Icon_Profile,
     name: 'Kwun Yeung',
     title: 'Co-Founder',
     social: 'https://www.linkedin.com/in/kwunyeung/',
@@ -468,7 +470,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://media-exp1.licdn.com/dms/image/C4E03AQFb4Lqdakq9aw/profile-displayphoto-shrink_200_200/0/1561537049421?e=1614211200&v=beta&t=KtDViWcDpLaFM4ML0LIjbI4E7gc624O7TOQZR6h8LCg',
+    profile: 'https://media-exp1.licdn.com/dms/image/C4E03AQFb4Lqdakq9aw/profile-displayphoto-shrink_200_200/0/1561537049421?e=1614211200&v=beta&t=KtDViWcDpLaFM4ML0LIjbI4E7gc624O7TOQZR6h8LCg' || Icon_Profile,
     name: 'Hyung Yeon Lee',
     title: 'CEO',
     social: 'https://www.linkedin.com/in/hyung-yeon-lee-9113764a/',
@@ -480,7 +482,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://avatars2.githubusercontent.com/u/4323424?s=460&u=bb1ea38421038ad1a955e3d308c5361eeebee1bc&v=4',
+    profile: 'https://avatars2.githubusercontent.com/u/4323424?s=460&u=bb1ea38421038ad1a955e3d308c5361eeebee1bc&v=4' || Icon_Profile,
     name: 'Joe Bowman',
     title: 'Platform & Software Engineering',
     social: 'https://github.com/joe-bowman',
@@ -492,7 +494,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://media-exp1.licdn.com/dms/image/C5603AQEdpVksj5iyvA/profile-displayphoto-shrink_200_200/0/1540835268272?e=1614211200&v=beta&t=eiQu3TGi2-TnO1X7mV82rvvUbscOBWAMHXQUqn_cslI',
+    profile: 'https://media-exp1.licdn.com/dms/image/C5603AQEdpVksj5iyvA/profile-displayphoto-shrink_200_200/0/1540835268272?e=1614211200&v=beta&t=eiQu3TGi2-TnO1X7mV82rvvUbscOBWAMHXQUqn_cslI' || Icon_Profile,
     name: 'Jazear Brooks',
     title: 'Founder',
     social: 'https://www.linkedin.com/in/jazearbrooks/',
@@ -504,7 +506,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1212969962853134336/5utIBMQj_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/1212969962853134336/5utIBMQj_400x400.jpg' || Icon_Profile,
     name: 'Deepanshu Tripathi',
     title: 'CTO',
     social: 'https://twitter.com/deepanshutr',
@@ -516,7 +518,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1312106490539409408/_gJKq1ZK_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/1312106490539409408/_gJKq1ZK_400x400.jpg' || Icon_Profile,
     name: 'Federico Kunze Küllmer',
     title: 'Software Engineer',
     social: 'https://twitter.com/fekunze',
@@ -528,7 +530,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1080674437287038977/UjIOORQl_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/1080674437287038977/UjIOORQl_400x400.jpg' || Icon_Profile,
     name: 'Ryan John King',
     title: 'Co-Founder',
     social: 'https://twitter.com/frothcity',
@@ -540,7 +542,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://avatars1.githubusercontent.com/u/398285?s=460&u=d74f71fa075a95e0e85df4594b82fb429f79a760&v=4',
+    profile: 'https://avatars1.githubusercontent.com/u/398285?s=460&u=d74f71fa075a95e0e85df4594b82fb429f79a760&v=4' || Icon_Profile,
     name: 'Matt Bell',
     title: 'Co-Founder',
     social: 'https://github.com/mappum',
@@ -552,7 +554,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://avatars2.githubusercontent.com/u/10136079?s=460&u=745a6a70fad54d544af5c22bac683612aadfcba6&v=4',
+    profile: 'https://avatars2.githubusercontent.com/u/10136079?s=460&u=745a6a70fad54d544af5c22bac683612aadfcba6&v=4' || Icon_Profile,
     name: 'Pedro Gomes',
     title: 'Founder',
     social: 'https://github.com/pedrouid',
@@ -564,7 +566,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1100521995509338114/ljA79Qdt_400x400.png',
+    profile: 'https://pbs.twimg.com/profile_images/1100521995509338114/ljA79Qdt_400x400.png' || Icon_Profile,
     name: 'Scott Stuart',
     title: 'Product',
     social: 'https://twitter.com/Scott_Stuart_',
@@ -576,7 +578,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://avatars2.githubusercontent.com/u/8525850?s=460&u=9bfaf3fe79cb36263fcf65705c0f70654dc0a9cf&v=4',
+    profile: 'https://avatars2.githubusercontent.com/u/8525850?s=460&u=9bfaf3fe79cb36263fcf65705c0f70654dc0a9cf&v=4' || Icon_Profile,
     name: 'Chjango Unchained',
     title: 'Ecosystem Developer',
     social: 'https://github.com/Chjango',
@@ -588,7 +590,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1170294118410534912/eXkstftl_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/1170294118410534912/eXkstftl_400x400.jpg' || Icon_Profile,
     name: 'Antoine Herzog',
     title: 'CEO',
     social: 'https://twitter.com/antoineherzog',
@@ -600,7 +602,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://media-exp1.licdn.com/dms/image/C4D03AQGPNhVfX79Reg/profile-displayphoto-shrink_200_200/0/1517467825561?e=1614211200&v=beta&t=GNch28AXYYX_uZ_JyIkNZiHo0iim6bZWzCNbGWS8_qA',
+    profile: 'https://media-exp1.licdn.com/dms/image/C4D03AQGPNhVfX79Reg/profile-displayphoto-shrink_200_200/0/1517467825561?e=1614211200&v=beta&t=GNch28AXYYX_uZ_JyIkNZiHo0iim6bZWzCNbGWS8_qA' || Icon_Profile,
     name: 'Guy Zyskind',
     title: 'Enigma\'s CEO speaking on behalf of the Secret Network',
     social: 'https://twitter.com/GuyZys',
@@ -612,7 +614,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://pbs.twimg.com/profile_images/1033726326908379137/v2bbgQbP_400x400.jpg',
+    profile: 'https://pbs.twimg.com/profile_images/1033726326908379137/v2bbgQbP_400x400.jpg' || Icon_Profile,
     name: 'Chris Goes',
     title: 'IBC Lead Dev',
     social: 'https://twitter.com/cwgoes',
@@ -624,7 +626,7 @@ export const Speakers = [
     },
   },
   {
-    profile: 'https://avatars1.githubusercontent.com/u/59489470?s=460&u=bd730522c9270f7276980d3c86a77da2b7d86dd2&v=4',
+    profile: 'https://avatars1.githubusercontent.com/u/59489470?s=460&u=bd730522c9270f7276980d3c86a77da2b7d86dd2&v=4' || Icon_Profile,
     name: 'Andrey Kuprianov',
     title: 'Senior Research Engineer',
     social: 'https://github.com/andrey-kuprianov',
