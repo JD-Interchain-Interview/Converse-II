@@ -1,4 +1,4 @@
-export const CompaniesClass_Mobile = 'grid grid-cols-2 gap-12 p-3 ';
+export const CompaniesClass_Mobile = 'grid grid-cols-1 gap-12 p-3 ';
 export const CompaniesClass_Web = 'sm:p-10 sm:grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6[] sm:gap-10 sm:space-y-0';
 
 export const card_Mobile = 'border border-gray-700 hover:border-blue-400 bg-gray-900 flex flex-col rounded-lg p-5 items-center text-center';
