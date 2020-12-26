@@ -22,10 +22,12 @@ const ScheduleDec13Page = () => {
             <p className={gradient}>{events.title}</p>
             <p className={PlaybackDate}>{events.date} at {events.time}</p>
             <br/>
-            <div className={Speakers}>
-            <img src={events.speakers.profile} alt={events.speakers.name} className={ProfileImage}/>
-            <p className={ProfileName}>{events.speakers.name}</p>
-            </div>
+            {events.speakers.map((speaker) => (
+              <div className={Speakers}>
+                <img src={speaker.profile} alt={speaker.name} className={ProfileImage}/>
+                <p className={ProfileName}>{speaker.name}</p>
+              </div>
+            ))}
           </div>
           </a>
           

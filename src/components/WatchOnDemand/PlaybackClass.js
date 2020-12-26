@@ -12,8 +12,8 @@ export const header = 'text-6xl py-10 pt-24';
 
 export const PlaybackDate = 'text-gray-600';
 export const Speakers = 'flex flex-row space-x-3 items-center'
-export const ProfileImage = 'w-1/12 object-contain rounded-full';
-export const ProfileName = 'text-gray-300 text-sm font-light w-5/12';
+export const ProfileImage = 'w-8 object-contain rounded-full';
+export const ProfileName = 'text-gray-300 text-sm font-light w-6/12';
 
 export const gradient = 'bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-pink-500';
 export const hrOpacity = 'opacity-25'; 

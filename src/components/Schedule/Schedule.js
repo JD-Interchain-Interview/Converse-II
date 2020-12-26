@@ -51,7 +51,9 @@ const SchedulePage = () => {
             <div className={`${subheader} ${gradient} ${hover}`}>
               <a  href={events.link} target='_blank'>{events.title}</a>
             </div>
-            <p>{events.speakers.name}, {events.speakers.title}</p>
+            {events.speakers.map((speaker) => (
+              <p>{speaker.name}, {speaker.title}</p>
+            ))}
           </div>
         </div>
         </div>
@@ -77,7 +79,9 @@ const SchedulePage = () => {
             <div className={`${subheader} ${gradient} ${hover}`}>
               <a  href={events.link} target='_blank'>{events.title}</a>
             </div>
-            <p>{events.speakers.name}, {events.speakers.title}</p>
+            {events.speakers.map((speaker) => (
+              <p>{speaker.name}, {speaker.title}</p>
+            ))}
           </div>
         </div>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react'; 
+// import { ScheduleDec12 } from '../../database/Schedule';
 import { ScheduleDec12 } from '../../database/Schedule';
-
 
 // Component Styling
 import { PlaybackClass_Mobile, PlaybackClass_Web, card_Mobile, card_Web, card_hover, header, PlaybackDate, Speakers, ProfileImage, ProfileName, gradient, hrOpacity} from './PlaybackClass'; 
@@ -22,10 +22,12 @@ const ScheduleDec12Page = () => {
             <p className={gradient}>{events.title}</p>
             <p className={PlaybackDate}>{events.date} at {events.time}</p>
             <br/>
-            <div className={Speakers}>
-            <img src={events.speakers.profile} alt={events.speakers.name} className={ProfileImage}/>
-            <p className={ProfileName}>{events.speakers.name}</p>
-            </div>
+              {events.speakers.map((speaker) => (
+                  <div className={Speakers}>
+                    <img src={speaker.profile} alt={speaker.name} className={ProfileImage}/>
+                    <p className={ProfileName}>{speaker.name}</p>
+                  </div>
+                ))}
           </div>
           </a>
           
