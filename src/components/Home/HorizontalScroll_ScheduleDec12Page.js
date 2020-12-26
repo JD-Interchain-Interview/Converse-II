@@ -18,7 +18,7 @@ let list = [
 const MenuItem = ({ events }) => {
   return (
     <div className={`${PlaybackClass_Mobile}`}>
-      <a href={'events.link'} target='_blank'>
+      <a href={events.link} target='_blank'>
       <div className={`${card_Mobile} ${card_Web} ${card_hover}`}>
         <p className={gradient}>{events.title}</p>
         <p className={PlaybackDate}>{events.date} at {events.time}</p>
