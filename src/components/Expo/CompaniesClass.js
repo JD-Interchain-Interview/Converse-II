@@ -7,7 +7,7 @@ export const card_Web = 'lg:flex-row lg:text-left';
 export const card_hover = 'transform duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:shadow-lg hover:bg-[] hover:opacity-80'; 
 
 
-export const header = 'text-4xl py-10 pt-24';
+export const header = 'text-6xl py-10 pt-24';
 
 export const Logo = ' w-4/12 object-contain rounded-full object-contain';
 export const CompanyDescription = 'p-5 space-y-2';

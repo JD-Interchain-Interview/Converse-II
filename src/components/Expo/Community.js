@@ -24,7 +24,7 @@ const Community = () => {
           <div className={`${card_Mobile} ${card_Web} ${card_hover}`}>
             <img src={company.logo} alt={company.name} className={Logo}/>
 
-            <div className={`${CompanyDescription} ${gradient}`}>
+            <div className={`${CompanyDescription}`}>
               <p>{company.name}</p>
             </div>  
           

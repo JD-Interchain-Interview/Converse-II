@@ -16,7 +16,7 @@ const TimeClass_Web = '';
 const DescriptionClass_Mobile = 'space-y-3';
 const DescriptionClass_Web = '';
 
-const header = 'text-4xl py-10 pt-24';
+const header = 'text-6xl py-10 pt-24';
 const subheader = 'text-3xl py-10';
 const body = 'text-gray-50 text-md font-light w-full tracking-wide leading-relaxed';
 

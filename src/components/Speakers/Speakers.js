@@ -12,7 +12,7 @@ const card_Web = '';
 const card_hover = 'transform duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:shadow-lg hover:bg-[] hover:opacity-80'; 
 
 
-const header = 'text-4xl py-10 pt-24';
+const header = 'text-6xl py-10 pt-24';
 
 const ProfileImage = 'border border-gray-700 w-full object-contain rounded-[]';
 const ProfileDescription = 'p-5 space-y-2';
@@ -26,7 +26,7 @@ const SpeakersPage = () => {
   return (
     <div>
       <h1 className={`${header} ${gradient}`}>Speakers</h1>
-
+      <p>Hear from speakers coming live to your screen from around the world.</p>
       <br/>
       <hr className={hrOpacity}/>
       <br/>

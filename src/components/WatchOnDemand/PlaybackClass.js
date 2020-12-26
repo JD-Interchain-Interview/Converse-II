@@ -7,7 +7,7 @@ export const card_Web = '';
 export const card_hover = 'transform duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:shadow-lg hover:bg-[] hover:opacity-80'; 
 
 
-export const header = 'text-4xl py-10 pt-24';
+export const header = 'text-6xl py-10 pt-24';
 
 
 export const PlaybackDate = 'text-gray-600';

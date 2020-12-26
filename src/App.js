@@ -15,6 +15,7 @@ import WatchOnDemand from './components/WatchOnDemand';
 import Schedule from './components/Schedule'; 
 import Speakers from './components/Speakers'; 
 import Expo from './components/Expo'; 
+import Footer from './components/Footer';
 
 // Component Styling
 
@@ -42,6 +43,8 @@ function App() {
             <Route path='/Speakers'><Speakers/></Route>
             <Route path='/Expo'><Expo/></Route>
           </Switch>
+
+          <Footer/>
         </div>
       </div>
     </Router>
