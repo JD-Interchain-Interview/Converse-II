@@ -39,7 +39,7 @@ export const Sponsors = [
   {
     name: 'Cosmos',
     logo: 'https://cosmos.network/images/logos/cosmos-logo-white.png' || Icon_Company,
-    link: '',
+    link: 'https://cosmos.network/',
   },
   {
     name: 'IRISnet',
