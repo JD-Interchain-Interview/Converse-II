@@ -13,7 +13,7 @@
 <hr/>
 
 <div align="center">
-  <img src="./src/assets/converse-ii.mp4" alt="preview" />
+  <img src="./src/assets/converse-ii.gif" alt="preview" />
 </div>
 
 <br/>
