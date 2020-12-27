@@ -7,12 +7,16 @@
   <p> Project Development </p>
   <h3> Interchain Conversations </h3>
   <p> Design & Development — By Jessica Dosseh </p>
+  
+  <br/>
+    <a href="https://main.d2uwvbpm5j36k3.amplifyapp.com/"> Visit Website <a/>
   <br/>
 </div>
 
 <hr/>
 
 <div align="center">
+  <br/>
   <img src="./src/assets/converse-ii.gif" alt="preview" />
 </div>
 
