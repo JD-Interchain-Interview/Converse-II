@@ -13,7 +13,7 @@
 <hr/>
 
 <div align="center">
-  <img src="https://twitter.com/i/status/1343016970988482560" alt="preview" />
+  <img src="./src/assets/converse-ii.mp4" alt="preview" />
 </div>
 
 <br/>
