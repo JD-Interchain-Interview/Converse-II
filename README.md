@@ -23,6 +23,8 @@ ___
 
 Improve over what you see on that page by incorporating modern css techniques. Get creative!
 
+<br/>
+
 ### Project Structure 
 ___
 
@@ -34,6 +36,8 @@ src
 ├── styles
 ├── utils
 ```
+
+<br/>
 
 ### Getting Started 
 ___
@@ -48,6 +52,7 @@ ___
 
 :rocket: DO your magic!
 
+<br/>
 
 ### Development
 ___
