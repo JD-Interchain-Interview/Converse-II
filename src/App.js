@@ -2,9 +2,9 @@ import React from 'react';
 import { Router, Route, Switch } from 'react-router-dom'; 
 import './styles/main.css';
 
-//// Utilities / Store
+// Utilities
 
-import history from './utills/history';
+import history from './utils/history';
 
 // Components
 
@@ -23,6 +23,8 @@ import Footer from './components/Footer';
 const AppClass = 'bg-black text-gray-50 w-screen'; 
 const container = 'xl:container xl:mx-auto p-5';
 const hrOpacity = 'opacity-25'; 
+
+// Component Layout
 
 function App() {
   return (

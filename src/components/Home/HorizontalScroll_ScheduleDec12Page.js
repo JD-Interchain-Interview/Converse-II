@@ -7,6 +7,7 @@ import Icon_ArrowRight from '../../assets/Icon_ArrowRight.svg';
 
 
 // Component Styling
+
 import { PlaybackClass_Mobile, PlaybackClass_Web, card_Mobile, card_Web, card_hover, header, PlaybackDate, Speakers, ProfileImage, ProfileName, gradient, hrOpacity} from '../WatchOnDemand/PlaybackClass'; 
 
 // Component Layout
@@ -45,7 +46,7 @@ const Arrow = ({ Icon, className }) => {
   return <div className={className}>{Icon}</div>;
 };
 Arrow.propTypes = {
-  // Icon: PropTypes.string,
+  Icon: PropTypes.string,
   className: PropTypes.string
 };
 
@@ -79,20 +80,6 @@ class HorizontalScroll_ScheduleDec12Page extends Component {
     console.log("first item is visible");
   };
 
-  // onLastItemVisible = () => {
-  //   console.log("last item is visible");
-
-  //   const newItems = Array(5)
-  //     .fill(1)
-  //     .map((el, ind) => ({ name: `item${list.length + ind + 1}` }));
-  //   list = list.concat(newItems);
-  //   this.menuItems = Menu(list, list.slice(-1)[0].name);
-  //   this.setState({
-  //     itemsCount: list.length,
-  //     selected: this.state.selected
-  //   });
-  // };
-
   onUpdate = ({ translate }) => {
     console.log(`onUpdate: translate: ${translate}`);
     this.setState({ translate });
@@ -123,7 +110,6 @@ class HorizontalScroll_ScheduleDec12Page extends Component {
       hideArrows,
       dragging,
       hideSingleArrow,
-      itemsCount,
       scrollToSelected,
       selected,
       translate,
@@ -146,7 +132,6 @@ class HorizontalScroll_ScheduleDec12Page extends Component {
           hideArrows={hideArrows}
           hideSingleArrow={hideSingleArrow}
           onFirstItemVisible={this.onFirstItemVisible}
-          // onLastItemVisible={this.onLastItemVisible}
           onSelect={this.onSelect}
           onUpdate={this.onUpdate}
           ref={el => (this.menu = el)}

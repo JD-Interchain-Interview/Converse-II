@@ -1,10 +1,11 @@
 import React from 'react'; 
-// import { ScheduleDec12 } from '../../database/Schedule';
 import { ScheduleDec12 } from '../../database/Schedule';
 
 // Component Styling
+
 import { PlaybackClass_Mobile, PlaybackClass_Web, card_Mobile, card_Web, card_hover, header, PlaybackDate, Speakers, ProfileImage, ProfileName, gradient, hrOpacity} from './PlaybackClass'; 
 
+// Component Layout 
 
 const ScheduleDec12Page = () => {
   return (
@@ -30,7 +31,6 @@ const ScheduleDec12Page = () => {
                 ))}
           </div>
           </a>
-          
         ))}        
       </div>
     </div>

@@ -107,7 +107,6 @@ const Home = () => {
                     className={'ReactPlayerClass'}
                     url='https://www.youtube.com/watch?v=DWVPTYOrUUo&t=9s'
                     width={'100%'}
-                    // light={true}
                     muted={false}
                     playing={false}
                     loop={true}

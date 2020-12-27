@@ -45,9 +45,6 @@ const SpeakersPage = () => {
           </div>
         ))}        
       </div>
-
-
-
     </div>
   )
 }
